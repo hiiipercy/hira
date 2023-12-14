@@ -37,7 +37,7 @@ export default function Home(){
                         </div>
                     </div>
                     <div className="home-btn">
-                        <a href="./dev.jpg" download="Eshaq_Miah" className="btn">Download CV</a>
+                        <a href="./ESHAQ_MIAH_resume.pdf" download="Eshaq_Miah" className="btn">Download CV</a>
                         <a href="contact" target="_blank" className="btn">Hire Me Now!</a>
                     </div>
                     <div className="social-icon">

@@ -34,9 +34,6 @@ body{
     width: 100%;
 }
 
-section{
-  width: 100%;
-}
 
 
 
@@ -1189,10 +1186,27 @@ span{
   display: flex;
   flex-direction: column;
   }
-
+  .home-btn {
+    display: flex;
+    gap: 2rem;
+    width: 320px;
+    height: 45px;
+    padding: 5px 10%;
+  }
+  .home-btn button.btn, .home-btn a.btn {
+    width: 100px;
+    height: 25px;
+    font-size: .7rem;
+}
   .home-content h1{
   font-size: 2rem;
   font-weight: 700;
+  }
+  .bio_left img{
+    max-width:200px;
+  }
+  .skill-img img{
+    max-width:200px;
   }
 }
 
@@ -1206,9 +1220,10 @@ span{
   .home-btn{
     width: 270px;
   }
-.home-btn button.btn,
-.home-btn a.btn{
-  width: 130px;
+  .home-btn button.btn, .home-btn a.btn {
+    width: 100px;
+    height: 25px;
+    font-size: .7rem;
 }
 .social-icon {
   margin-top: 2rem;
@@ -1221,6 +1236,16 @@ span{
   max-width: 600px;
   width: 100%;
 }
+.home-content h1 {
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+.home-content h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
 .image-box img{
   border-radius: 8px;
   height: auto;

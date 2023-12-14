@@ -13,7 +13,7 @@ export default function About(){
             </div>
         <div className="about-body" >
             <div className="bio_left">
-                <img src="./png.png" alt="about-img" />
+                <img src="./cv2.png" alt="about-img" />
             </div>
             <div className="bio_right">
                 <h3>A story of good</h3>

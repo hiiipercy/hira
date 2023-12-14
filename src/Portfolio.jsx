@@ -11,30 +11,36 @@ export default function Portfolio(){
                         img="./business_card.png"
                         title="Business Card"
                         text="Simple business card single page"
+                        link=""
                     />
                     <PortfolioBox
                         img="./task_2.png"
                         title="Airbnb"
-                        text="Simple Airbnb single page" 
+                        text="Simple Airbnb single page"
+                        link="https://sample-portfolio-sooty.vercel.app/"
                     />
     
                 <PortfolioBox 
                         img="./travel_journal.png"
                         title="Travel Journal" 
                         text="Simple Travel journal page"
+                        link="https://travel-journal-umber.vercel.app/"
                     />
                     <PortfolioBox
                         img="./business_card.png"
                         title="web5"
+                        link=""
                         />
                 
                 <PortfolioBox 
                         img="./dev.jpg"
                         title="web1" 
+                        link=""
                     />
                     <PortfolioBox
                         img="./dev.jpg"
-                        title="web2" 
+                        title="web2"
+                        link=""
                     />
             </div>
         </section>

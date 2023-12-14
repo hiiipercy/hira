@@ -6,7 +6,9 @@ export default function Header(){
     function toogle(){
         setBar(pre => !pre)
     }
-  
+    const scrollToTop = () => {
+        window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
+      };  
 
     return (
         <header className='header'>
@@ -19,7 +21,8 @@ export default function Header(){
                 <NavLink activeClassName="active"
                       to="/" 
                       spy={true} 
-                      smooth={true} 
+                      smooth={true}
+                      onClick={scrollToTop}
                        >Home</NavLink>
                 </li>
                 <li className="nav-item">
