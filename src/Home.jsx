@@ -5,7 +5,7 @@ import Typical from 'react-typical';
 export default function Home(){
 
     return(
-           <section className="home" id="home">
+           <home className="home" id="home">
                 <div className="home-content">
                     <h3>Hello! It's me</h3>
                     <h1>Eshaq Miah</h1>
@@ -15,7 +15,7 @@ export default function Home(){
                                 <Typical className="typical"
                                 loop={Infinity}
                                 wrapper="p"
-                                steps={[
+                                steps={[ 
                                     'Frontend Developer', 3000,
                                     'Web Designer',3000,
                                     'UX/UI Developer',3000,
@@ -52,6 +52,6 @@ export default function Home(){
                         <img src="./cover.jpeg" alt=""/>
                     </div>
                 </div>
-            </section>
+            </home>
     )
 }

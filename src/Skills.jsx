@@ -7,7 +7,7 @@ export default function Skills(){
             <div className="main-text">
                 <h2>Skills</h2>
             </div>
-        <div className="skills">
+        <div className="skill">
         <div class="skill-img">
             <img src="./png.png" alt=""/>
         </div> 

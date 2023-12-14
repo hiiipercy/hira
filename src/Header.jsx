@@ -2,13 +2,19 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 export default function Header(){
+    let [bar,setBar] = React.useState(false);
+    function toogle(){
+        setBar(pre => !pre)
+    }
   
+
     return (
-        <nav className='header'>
+        <header className='header'>
             <div className="logo">
                 <span>H</span>ira.
             </div>
-            <ul className="nav-menu">
+            <ul id='navbar' onClick={toogle} className={bar ?
+            "#navbar open" : "#navbar"}>
                 <li className="nav-item">
                 <NavLink activeClassName="active"
                       to="/" 
@@ -52,9 +58,9 @@ export default function Header(){
                      >Contact</NavLink>
                 </li>
             </ul>
-            <div id="menu-icon" class='bx bx-menu'>
+            <div id="menu-icon" onClick={toogle} class={bar ? "bx bx-x" : "bx bx-menu"}>
             </div>
-        </nav>
+        </header>
     )
 }
 
