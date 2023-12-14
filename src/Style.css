@@ -919,89 +919,9 @@ span{
 
 
 
-@media (max-width:2560px){
-  header{
-    padding: 20px 15%;
-  }
-  .home{
-  padding: 100px 15%;
-  min-height: 100vh;
-  height: 100%;
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(auto-fill , minmax(800px , 1fr));
-  gap: 4rem;
-  justify-content: space-between;
-  align-items: center;
-}
-.home-content {
-  max-width: 700px;
-  width: 100%;
-}
-.image-box img{
-  border-radius: 8px;
-  height: auto;
-  max-width:500px;
-  align-items: center;
-  width: 100%;
-}
-.bio_left img{
-  height: auto;
-  width: auto;
-  max-width:400px;
-  text-align: center;
-}
-.about{
-  padding: 100px 15%;
-}
-.about-body{
-  display: grid;
-  grid-template-columns: repeat(auto-fill , minmax(800px , 1fr));
-  gap: 4rem;
-}
-.skill-section{
-  padding: 100px 15%;
-}
-.skill {
-  display: grid;
-  grid-template-columns: repeat(auto-fill , minmax(700px , 1fr));
-}
-.skill-img img{
-  height: auto;
-  width: auto;
-  max-width:400px;
-  text-align: center;
-}
-.services_main{
-  padding: 100px 15%;
-}
-.services{
-  display: grid;
-  grid-template-columns: repeat(auto-fill , minmax(500px , 1fr));
-  gap: 2rem;
-}
-.portfolio{
-  padding: 100px 15%;
-}
-.portfolio_body{
-  display: grid;
-  grid-template-columns: repeat(auto-fill , minmax(250px , 1fr));
-  gap: 2rem;
-}
-.contact{
-  padding: 100px 15%;
-}
-.contact_body form{
-  margin: 1rem auto;
-  max-width: 60rem;
-  margin-bottom: 3rem;
-  align-items: center;
-  width: 100%;
- }
-}
 
 
-@media (max-width:1440px){
+@media (min-width:1330px){
   header{
     padding: 20px 10%;
   }
