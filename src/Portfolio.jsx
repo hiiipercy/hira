@@ -9,8 +9,8 @@ export default function Portfolio(){
             <div className="portfolio_body">
                     <PortfolioBox 
                         img="./quora.png"
-                        title="Business Card"
-                        text="Simple business card single page"
+                        title="Quora for College"
+                        text="An online educational platform"
                         link="https://quoraforcollege.vercel.app/"
                     />
                     <PortfolioBox
