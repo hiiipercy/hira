@@ -27,9 +27,9 @@ export default function Portfolio(){
                         link="https://travel-journal-umber.vercel.app/"
                     />
                     <PortfolioBox
-                        img="./business_card.png"
+                        img="./to-do.png"
                         title="web5"
-                        link="https://businescard.vercel.app/"
+                        link="https://to-do-app-no82.vercel.app/"
                         />
 
             </div>
