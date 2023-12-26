@@ -29,19 +29,9 @@ export default function Portfolio(){
                     <PortfolioBox
                         img="./business_card.png"
                         title="web5"
-                        link=""
+                        link="https://businescard.vercel.app/"
                         />
-                
-                <PortfolioBox 
-                        img="./dev.jpg"
-                        title="web1" 
-                        link=""
-                    />
-                    <PortfolioBox
-                        img="./dev.jpg"
-                        title="web2"
-                        link=""
-                    />
+
             </div>
         </section>
     )
