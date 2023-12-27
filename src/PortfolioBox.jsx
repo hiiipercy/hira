@@ -10,7 +10,7 @@ export default function PortfolioBox(props){
                 <div className="portfolio-info">
                     <h3 className="portfolio_title">{props.title}</h3>
                     <p>{props.text}</p>
-                    <a href={props.link}><i class='bx bx-link-external'></i></a>
+                    <a href={props.link} target="_blank"><i class='bx bx-link-external'></i></a>
                 </div>
         </div>
     )
