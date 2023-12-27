@@ -28,7 +28,8 @@ export default function Portfolio(){
                     />
                     <PortfolioBox
                         img="./to-do.png"
-                        title="web5"
+                        title="To Do App"
+                        text="It helps you to stay organized"
                         link="https://to-do-app-no82.vercel.app/"
                         />
 
