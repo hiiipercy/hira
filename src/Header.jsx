@@ -1,14 +1,14 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import Scroll from 'react-scroll';
+const Link = Scroll.Link
+
 
 export default function Header(){
     let [bar,setBar] = React.useState(false);
     function toogle(){
         setBar(pre => !pre)
     }
-    const scrollToTop = () => {
-        window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
-      };  
+ 
 
     return (
         <header className='header'>
@@ -18,47 +18,53 @@ export default function Header(){
             <ul id='navbar' onClick={toogle} className={bar ?
             "#navbar open" : "#navbar"}>
                 <li className="nav-item">
-                <NavLink activeClassName="active"
-                      to="/" 
+                <Link activeClassName="active"
+                      to="home" 
                       spy={true} 
                       smooth={true}
-                      onClick={scrollToTop}
-                       >Home</NavLink>
+                      duration={300}
+                      
+                       >Home</Link>
                 </li>
                 <li className="nav-item">
-                <NavLink activeClassName="active"
-                      to="/about" 
+                <Link activeClassName="active"
+                      to="about" 
                       spy={true} 
-                      smooth={true} 
-                      >About</NavLink>
+                      smooth={true}
+                      duration={300}
+                      >About</Link>
                 </li>
                 <li className="nav-item">
-                <NavLink activeClassName="active"
-                      to="/skills" 
+                <Link activeClassName="active"
+                      to="skills" 
                       spy={true} 
-                      smooth={true} 
-                     >Skills</NavLink>
+                      smooth={true}
+                      duration={300}
+                     >Skills</Link>
                 </li>
                 <li className="nav-item">
-                <NavLink to="/services"      
+                <Link to="services"      
                       activeClassName="active"
                       spy={true} 
-                      smooth={true} 
-                   >Services</NavLink>
+                      smooth={true}
+                      duration={300}
+                   >Services</Link>
                 </li>
                 <li  className="nav-item">
-                <NavLink activeClassName="active"
-                      to="/portfolio"       
+                <Link activeClassName="active"
+                      to="portfolio"       
                       spy={true} 
-                      smooth={true} 
-                     >Portfolio</NavLink>
+                      smooth={true}
+                      duration={300}
+                     >Portfolio</Link>
                 </li>
                 <li  className="nav-item">
-                <NavLink activeClassName="active"
-                      to="/contact"      
+                <Link activeClassName="active"
+                      to="contact"      
                       spy={true} 
-                      smooth={true} 
-                     >Contact</NavLink>
+                      smooth={true}
+                      duration={300} 
+                     >Contact</Link>
                 </li>
             </ul>
             <div id="menu-icon" onClick={toogle} class={bar ? "bx bx-x" : "bx bx-menu"}>
