@@ -902,6 +902,7 @@ span{
 .footer a i{
   font-size: 1.5rem;
   padding: 5px;
+  cursor: pointer;
   border-radius: 2px;
   background: #12f7ff;
   color: var(--bg-color);
