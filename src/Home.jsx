@@ -16,10 +16,10 @@ export default function Home(){
                                 loop={Infinity}
                                 wrapper="p"
                                 steps={[ 
-                                    'Frontend Developer', 3000,
                                     'Web Designer',3000,
                                     'UX/UI Developer',3000,
                                     'Graphics Designer',3000,
+                                    'Laravel Developer', 3000,
                                 ]}
                             />
                             </h3>
