@@ -24,7 +24,7 @@ export default function Home(){
                             />
                             </h3>
                         </div>
-                    <p className="text">I'm a dedicated Software developer 🧔, and I'm all about JavaScript and its handy libraries and frameworks 💻.
+                    <p className="text">I'm a dedicated Software engineer 🧔, and I'm all about PHP and its handy libraries and frameworks 💻.
                      I use code to tackle real-life problems and add that extra sparkle ✨.</p>
                     <div className="info-box">
                         <div className="mail-info">
