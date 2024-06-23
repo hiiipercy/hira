@@ -17,10 +17,10 @@ export default function About(){
             </div>
             <div className="bio_right">
                 <h3>A story of good</h3>
-                <p>As a passionate and skilled Front-End Developer, I thrive on crafting seamless and engaging user experiences.
+                <p>As a passionate and skilled Fullstack Developer, I thrive on crafting seamless and engaging user experiences.
 With a strong foundation in web technologies, I bring a creative approach to design and a meticulous eye for detail to every project.
-My expertise lies in turning design concepts into responsive and interactive interfaces using cutting-edge technologies such as HTML5, CSS3, and JavaScript.
-Proficient in front-end framework like React.js, enabling me to build dynamic and scalable applications.
+My expertise lies in turning design concepts into responsive and interactive interfaces using cutting-edge technologies such as HTML, CSS, JavaScript, React JS, PHP, Laravel, MySQL and Git etc.
+Proficient in PHP framework like Laravel, enabling me to build dynamic and scalable applications.
 Stay up-to-date with {about ? (<span>the latest industry trends and continually expand my skill set to incorporate emerging technologies.
 In the ever-evolving world of front-end development, I am dedicated to continuous learning.</span>) : "" } </p>
                 {!about? (<div className="home-btn">
